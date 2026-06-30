@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: equity-reconciliation-app
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
